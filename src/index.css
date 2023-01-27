@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .selected {
+    background-color: hsl(200, 100%, 70%);
+    color: white;
+  }
+  .highlighted {
+    background-color: hsl(200, 100%, 50%);
+    color: white;
+  }
+}
